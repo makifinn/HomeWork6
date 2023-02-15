@@ -63,9 +63,9 @@ while (IsWork)
                     void Task_2()
                     {
                         Console.WriteLine("----------");
-                        GetPoint(ReadInt("b1: "), ReadInt("k1: "), ReadInt("b2: "), ReadInt("k2: "));
+                        GetPoint(ReadDouble("b1: "), ReadDouble("k1: "), ReadDouble("b2: "), ReadDouble("k2: "));
 
-                        double ReadInt(string argument)
+                        double ReadDouble(string argument)
                         {
                             Console.Write($"Введите {argument}");
                             double number;
